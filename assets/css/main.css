@@ -194,7 +194,7 @@ section p {
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -4012,6 +4012,26 @@ div.mc-image {
   width: 100%;
 }
 
+.strokeme-lg
+{
+  color: white;
+  text-shadow:
+          -2px -2px 0 #000,
+          2px -2px 0 #000,
+          -2px 2px 0 #000,
+          2px 2px 0 #000;
+}
+
+.strokeme-sm
+{
+  color: white;
+  text-shadow:
+          -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+          1px 1px 0 #000;
+}
+
 /****************** HOW IT WORKS SECTION **********************/
 .how-it-works h2 {
   margin-top: 15px;
@@ -4081,10 +4101,12 @@ div.mc-image {
   box-shadow: none;
   background: none;
   border: none;
+  height: 475px !important;
 }
 @media screen and (max-width: 768px) {
   .features .bx-wrapper .bx-viewport {
     left: 0;
+    height: 700px !important;
   }
 }
 .features .bx-wrapper .bx-pager {
@@ -4093,7 +4115,7 @@ div.mc-image {
 }
 .features .left {
   float: left;
-  width: 70%;
+  width: 40%;
 }
 @media screen and (max-width: 992px) {
   .features .left {
@@ -4103,20 +4125,21 @@ div.mc-image {
 }
 .features .right {
   float: right;
-  width: 235px;
-  height: 475px;
-  background-image: url('../img/iphone-placeholder-black.png?1417061398');
+  width: 600px;
+  height: 600px;
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 992px) {
   .features .right {
     float: none;
     margin: 0 auto;
+    width: 300px;
+    height: 300px;
   }
 }
 .features .right img {
   position: relative;
-  top: 75px;
+  top: 25px;
   left: 17px;
 }
 .features .right.nexus-placeholder {

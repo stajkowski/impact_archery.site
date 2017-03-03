@@ -267,7 +267,7 @@ footer .footer-links + .footer-links {
   display: none;
   position: fixed;
   right: 10px;
-  bottom: 10px;
+  bottom: 50px;
   z-index: 9999;
 }
 .back-to-top a {
@@ -4197,6 +4197,53 @@ ul.feature-list li i {
   }
 }
 
+ul.hours-list {
+  margin-top: 10px;
+  text-align: left;
+}
+ul.hours-list li {
+  margin-bottom: 10px;
+  position: relative;
+}
+ul.hours-list li h4 {
+  margin-bottom: 8px;
+  font-family: inherit;
+  font-weight: 300;
+}
+ul.hours-list li i {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  ul.hours-list {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  ul.hours-list li i {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background: #ccc;
+  }
+  ul.hours-list li h4, ul.hours-list li p {
+    padding-left: 10px;
+  }
+}
+
 .bx-wrapper .bx-pager.bx-default-pager a {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -4302,6 +4349,12 @@ ul.feature-list li i {
 }
 .slick-dots li.slick-active button {
   background-color: #ccc;
+}
+
+/****************** CONTACT **********************/
+#contact h3 {
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 /****************** CALL TO ACTION **********************/

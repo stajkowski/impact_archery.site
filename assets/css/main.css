@@ -58,6 +58,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar-default .navbar-nav li a {
+    font-size:12px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+
 a {
   color: #e95a0a;
 }
@@ -186,6 +194,20 @@ section p {
 
 .googleplus-bg {
   background-color: #dd4b39;
+}
+
+.man-logo {
+  padding: 10px;
+}
+
+.pricing-table {
+  margin-top: 20px;
+  text-align: left;
+  color: #333;
+}
+
+.pricing-table thead, .pricing-table .pricing-item {
+  font-weight: 700;
 }
 
 .section-heading {
@@ -4109,6 +4131,12 @@ div.mc-image {
     height: 700px !important;
   }
 }
+@media screen and (max-width: 992px) {
+  .features .bx-wrapper .bx-viewport {
+    left: 0;
+    height: 700px !important;
+  }
+}
 .features .bx-wrapper .bx-pager {
   position: initial;
   padding-top: 30px;
@@ -4125,22 +4153,51 @@ div.mc-image {
 }
 .features .right {
   float: right;
-  width: 600px;
-  height: 600px;
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 992px) {
   .features .right {
     float: none;
     margin: 0 auto;
-    width: 300px;
-    height: 300px;
   }
 }
 .features .right img {
   position: relative;
   top: 25px;
   left: 17px;
+}
+@media screen and (max-width: 768px) {
+  .features .right{
+    float: none;
+    margin: 0 auto;
+  }
+  .features .right img{
+    float: none;
+    margin: 0 auto;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .features .right{
+    float: none;
+    margin: 0 auto;
+  }
+  .features .right img{
+    float: none;
+    margin: 0 auto;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .features .right{
+    float: none;
+    margin: 0 auto;
+  }
+  .features .right img{
+    float: none;
+    margin: 0 auto;
+    width: 500px;
+  }
 }
 .features .right.nexus-placeholder {
   background-image: url('../img/nexus5-placeholder.png?1417062630');
@@ -4258,6 +4315,25 @@ ul.hours-list li i {
 }
 .bx-wrapper .bx-pager.bx-default-pager a.active {
   background: #ccc;
+}
+
+@media screen and (max-width: 1200px) {
+  .shop-photos img{
+    height: 400px;
+    width: 550px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .shop-photos img{
+    height: 400px;
+    width: 550px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .shop-photos img{
+    height: 250px;
+    width: 350px;
+  }
 }
 
 /****************** INFINITE SCREENSHOT SLIDER **********************/

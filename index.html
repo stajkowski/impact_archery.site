@@ -31,6 +31,7 @@
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/simple-line-icons.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/rangepro.css" rel="stylesheet" />
 	
 	<!-- GOOGLE FONTS -->
 	<link href='http://fonts.googleapis.com/css?family=Dosis:200,300,600' rel='stylesheet' type='text/css'>
@@ -58,6 +59,13 @@
 	<script type="text/javascript">var switchTo5x=true;</script>
 	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 	<script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
+    <script type="application/javascript" src="assets/js/rangepro.js"></script>
+    <script type="application/javascript">
+
+        apiKey = '145c73d4-fef1-11e6-adb0-0e4be0512310';
+        enabledElements = ['summary'];
+
+    </script>
 
 </head>
 
@@ -110,6 +118,7 @@
 					<img src="assets/img/lg-logo.png" class="lg-logo" alt="Impact Logo">
 					<h1 class="strokeme-lg">3,300 SQFT Las Vegas Archery Range</h1>
 					<p class="lead strokeme-sm">Premier Archery Store & 20 Yard Range in Las Vegas.</p>
+                    <div id="default_range_status"></div>
 					<div class="store-buttons">
 						<!---<a href="#" class="btn btn-appstore"><img src="assets/img/btn-appstore.png" alt="App Store"></a>
 						<a href="#" class="btn btn-googleplay"><img src="assets/img/btn-googleplay.png" alt="RangePro App Store"></a>-->
@@ -224,13 +233,14 @@
 							</li>
 						</ul>
 						<hr>
+						<img src="assets/img/man_logos/prime.png" class="man-logo" height="100" width="200" alt="Prime Archery">
 						<img src="assets/img/man_logos/hoyt.jpg" class="man-logo" height="100" width="100" alt="Hoyt Archery">
 						<img src="assets/img/man_logos/pse.jpg" class="man-logo" height="100" width="100" alt="PSE Archery">
-						<img src="assets/img/man_logos/mathews.jpg" class="man-logo" height="100" width="175" alt="Mathews Archery">
 						<img src="assets/img/man_logos/elite.png" class="man-logo" height="100" width="100" alt="Elite Archery">
+						<img src="assets/img/man_logos/mathews.jpg" class="man-logo" height="100" width="175" alt="Mathews Archery">
 						<img src="assets/img/man_logos/bear.png" class="man-logo" height="100" width="150" alt="Bear Archery">
-						<img src="assets/img/man_logos/martin.jpg" class="man-logo" height="100" width="175" alt="Martin Archery">
 						<img src="assets/img/man_logos/bowtech.jpg" class="man-logo" height="100" width="175" alt="Bowtech Archery">
+						<img src="assets/img/man_logos/diamond.png" class="man-logo" height="100" width="200" alt="Diamond Archery">
 						<img src="assets/img/man_logos/mission.png" class="man-logo" height="100" width="175" alt="Mission Archery">
 						<img src="assets/img/man_logos/easton.jpg" class="man-logo" height="100" width="100" alt="Easton Archery">
 						<img src="assets/img/man_logos/qad.jpg" class="man-logo" height="100" width="100" alt="QAD Archery">
@@ -282,7 +292,7 @@
 								<i class="icon-badge"></i>
 							</li>
 							<li>
-								<h3><b>12 PLAYERS PER GAME (6 VS 6)</b></h3>
+								<h3><b>18 PLAYERS PER GAME (Up To 9 VS 9)</b></h3>
 								<p>Nothing beats shooting your first X.  Learn how to be an archer but have fun doing it!</p>
 								<i class="fa fa-soccer-ball-o"></i>
 							</li>
@@ -292,7 +302,7 @@
 								<i class="icon-question"></i>
 							</li>
 							<li>
-								<h3><b>BIRTHDAYS & EVENTS</b></h3>
+								<h3><b>BIRTHDAYS & TEAM BUILDING</b></h3>
 								<p>This is an awesome yet unique game for events or birthdays, <a href="#contact">contact us</a> for pricing.</p>
 								<i class="icon-question"></i>
 							</li>
@@ -345,17 +355,27 @@
 							<tr>
 								<td class="pricing-item">Private Lesson</td>
 								<td>1 Hour</td>
-								<td>$35.00</td>
+								<td>$45.00</td>
 							</tr>
 							<tr>
-								<td class="pricing-item">1 Month Membership</td>
+								<td class="pricing-item">1 Month Individual Membership</td>
 								<td>1 Month</td>
 								<td>$50.00</td>
 							</tr>
 							<tr>
-								<td class="pricing-item">1 Month Membership Family of 3</td>
+								<td class="pricing-item">1 Month Individual Membership + 24 Hour Pass (<i>One Time $10 Key FOB Deposit</i>)</td>
+								<td>1 Month</td>
+								<td>$75.00</td>
+							</tr>
+							<tr>
+								<td class="pricing-item">1 Month Family Membership (Family of 3)</td>
 								<td>1 Month</td>
 								<td>$70.00</td>
+							</tr>
+							<tr>
+								<td class="pricing-item">1 Month Family Membership (Family of 3) + 24 Hour Pass (<i>One Time $30 Key FOB Deposit</i>)</td>
+								<td>1 Month</td>
+								<td>$105.00</td>
 							</tr>
 							<tr>
 								<td class="pricing-item">Family Membership Additional Person</td>
@@ -363,14 +383,34 @@
 								<td>$10.00</td>
 							</tr>
 							<tr>
+								<td class="pricing-item">Family Membership Additional Person + 24 Hour Pass (<i>One Time $10 Key FOB Deposit</i>)</td>
+								<td>1 Month</td>
+								<td>$5.00</td>
+							</tr>
+							<tr>
 								<td class="pricing-item">6 Month Membership</td>
 								<td>6 Months</td>
 								<td>$275.00</td>
 							</tr>
 							<tr>
-								<td class="pricing-item">1 Year Membership</td>
+								<td class="pricing-item">1 Year Individual Membership</td>
 								<td>1 Year</td>
 								<td>$500.00</td>
+							</tr>
+							<tr>
+								<td class="pricing-item">1 Year Individual Membership + 24 Hour Pass (<i>One Time $10 Key FOB Deposit</i>)</td>
+								<td>1 Year</td>
+								<td>$750.00</td>
+							</tr>
+							<tr>
+								<td class="pricing-item">1 Year Family Membership (Family of 3)</td>
+								<td>1 Year</td>
+								<td>$700.00</td>
+							</tr>
+							<tr>
+								<td class="pricing-item">1 Year Family Membership (Family of 3) + 24 Hour Pass (<i>One Time $30 Key FOB Deposit</i>)</td>
+								<td>1 Year</td>
+								<td>$1050.00</td>
 							</tr>
 						</table>
 					</div>
@@ -386,7 +426,7 @@
 							<tr>
 								<td class="pricing-item">Archer's Advantage</td>
 								<td>1</td>
-								<td>$12.00</td>
+								<td>$15.00</td>
 							</tr>
 							<tr>
 								<td class="pricing-item">Cut off Arrows</td>
@@ -475,27 +515,24 @@
 							<ul class="list-unstyled hours-list">
 								<li>
 									<h4><b>MONDAY</b></h4>
-									<p>Range: 10a.m. - 6p.m.<br />
-										Store: 10a.m. - 8p.m.<br />
+									<p>Store: 10a.m. - 8p.m.<br />
 										JOAD: 6p.m. - 8p.m.
 									</p>
 								</li>
 								<li>
-									<h4><b>TEUSDAY</b></h4>
-									<p>Range: 10a.m. - 8p.m.<br />
-										Store: 10a.m. - 8p.m.
+									<h4><b>TUESDAY</b></h4>
+									<p>Store: 10a.m. - 8p.m.
 									</p>
 								</li>
 								<li>
 									<h4><b>WEDNESDAY</b></h4>
-									<p>Range: 10a.m. - 8p.m.<br />
-										Store: 10a.m. - 8p.m.
+									<p>Store: 10a.m. - 8p.m.<br />
+										League: 6p.m. - 8p.m.
 									</p>
 								</li>
 								<li>
 									<h4><b>THURSDAY</b></h4>
-									<p>Range: 10a.m. - 6p.m.<br />
-										Store: 10a.m. - 8p.m.<br />
+									<p>Store: 10a.m. - 8p.m.<br />
 										JOAD: 6p.m. - 8p.m.
 									</p>
 								</li>
@@ -505,21 +542,19 @@
 							<ul class="list-unstyled hours-list">
 								<li>
 									<h4><b>FRIDAY</b></h4>
-									<p>Range: 10a.m. - 6p.m.<br />
-										Store: 10a.m. - 8p.m.
+									<p>Store: 10a.m. - 8p.m.<br />
+										League: 6p.m. - 8p.m.
 									</p>
 								</li>
 								<li>
 									<h4><b>SATURDAY</b></h4>
-									<p>Range: 9a.m. - 5p.m.<br />
-										Store: 9a.m. - 5p.m.<br />
+									<p>Store: 9a.m. - 5p.m.<br />
 										Archery Tag: 5:30p.m - 8p.m.
 									</p>
 								</li>
 								<li>
 									<h4><b>SUNDAY</b></h4>
-									<p>Range: 9a.m. - 5p.m.<br />
-										Store: 9a.m. - 5p.m.
+									<p>Store: 9a.m. - 5p.m.
 									</p>
 								</li>
 							</ul>

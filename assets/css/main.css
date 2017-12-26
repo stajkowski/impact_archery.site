@@ -33,12 +33,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #444;
 }
 
+.lg-logo {
+  width: 300px;
+  height: 100px;
+}
+
 @media screen and (min-width: 992px) {
   header .container-fluid,
   section .container-fluid,
   footer .container-fluid {
     padding-left: 2em;
     padding-right: 2em;
+  }
+  .lg-logo {
+    width: 300px;
+    height: 100px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -56,6 +65,10 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 15em;
     padding-right: 15em;
   }
+  .lg-logo {
+    width: 400px;
+    height: 150px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -63,6 +76,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size:12px !important;
     padding-left: 8px !important;
     padding-right: 8px !important;
+  }
+  .lg-logo {
+    width: 300px;
+    height: 100px;
   }
 }
 
@@ -102,11 +119,6 @@ a:hover, a:focus {
 
 .navbar-logo img {
   width: 100px;
-}
-
-.lg-logo {
-  width: 400px;
-  height: 150px;
 }
 
 .navbar-default .navbar-nav > li > a {

@@ -1,7 +1,8 @@
 apiKey = null;
+rangeID = null;
 enabledElements = [];
 test = false;
-updateInterval = 60;
+updateInterval = 120;
 contentType = null;
 
 $( document ).ready(function()
@@ -19,14 +20,14 @@ $( document ).ready(function()
 function constructURL(apiCall)
 {
     //construct url for ajax call
-    url = 'https://client.range-pro.com/v1/';
+    url = 'https://api.range-pro.com/v1/';
     if (test == true) {
-        url = 'http://rptest.range-pro.com:9000/v1/';
+        url = 'http://localhost:8080/v1/';
     }
 
     //construct the url for each call
-    if (apiCall == 'store') {
-        url += 'stores/' + apiKey;
+    if (apiCall == 'range') {
+        url += 'public/range/' + rangeID + '/summary';
     }
 
     return url;
@@ -52,13 +53,19 @@ function formatNumber(num)
 
 function constructSummaryElement() {
 
-    var rpAPI = constructURL('store');
+    var rpAPI = constructURL('range');
+    $.ajaxSetup({
+        headers : {
+            'Authorization' : apiKey,
+            'Content-Type' : 'application/json'
+        }
+    });
     var ajaxRequest = $.getJSON(rpAPI)
         .done(function (data) {
 
-            num_waiting = formatNumber(data.store.default_range_waiting);
-            num_customer = formatNumber(data.store.default_customers_waiting);
-            num_open = formatNumber(data.store.default_range_open);
+            num_waiting = formatNumber(data.summary['waiting_list_lanes']);
+            num_customer = formatNumber(data.summary['waiting_list']);
+            num_open = formatNumber(data.summary['open']);
 
             html = '<span class="summary-open-lanes-title">OPEN</span>';
             html += '<span class="summary-open-lanes">' + num_open + '</span>';

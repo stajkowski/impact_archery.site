@@ -5,14 +5,13 @@
     width: 230px;
     position: relative;
     padding: 10px;
-    border-radius: 10px;
-    border: 3px solid #222222;
+    border: 2px solid #222222;
     font-family: "Times New Roman", Times, serif !important;
     box-sizing: content-box !important;
 }
 
 .range-status-ok {
-    background: #00bc08;
+    background: #4fff8c;
 }
 
 .range-status-busy {
@@ -24,7 +23,7 @@
     height: 70px;
     width: 2px;
     position: absolute;
-    background: #fff;
+    background: #333;
     top: 10px;
     left: 90px;
 }
@@ -32,7 +31,7 @@
 #default_range_status > .summary-open-lanes-title {
     font-size: 22px;
     font-weight: 600;
-    color: #fff;
+    color: #333;
     position: absolute;
     top: 55px;
     left: 20px;
@@ -41,7 +40,7 @@
 #default_range_status > .summary-open-lanes {
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: #333;
     position: absolute;
     top: -5px;
     left: 20px;
@@ -50,7 +49,7 @@
 #default_range_status > .summary-waitinglist-title {
     font-size: 16px;
     font-weight: 800;
-    color: #fff;
+    color: #333;
     position: absolute;
     top: 12px;
     left: 108px;
@@ -59,7 +58,7 @@
 #default_range_status > .summary-waitinglist-customers {
     font-size: 16px;
     font-weight: 800;
-    color: #fff;
+    color: #333;
     position: absolute;
     top: 36px;
     left: 102px;
@@ -68,7 +67,7 @@
 #default_range_status > .summary-waitinglist-lanes {
     font-size: 16px;
     font-weight: 800;
-    color: #fff;
+    color: #333;
     position: absolute;
     top: 56px;
     left: 102px;

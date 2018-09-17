@@ -144,6 +144,15 @@ a:hover, a:focus {
   color: #8b8b8b;
 }
 
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: 370px !important;
+}
+
+#top {
+  margin-top: 30px;
+}
+
 section {
   padding: 43px 0;
   margin: 35px 0;

@@ -6,9 +6,33 @@
   <component name="ChangeListManager">
     <list default="true" id="0e3e2e89-cbe5-4cce-9360-dfb81b4cf761" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/lg-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/android-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/android-icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/android-icon-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/android-icon-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/android-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/android-icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/apple-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/apple-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/apple-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/apple-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/apple-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/apple-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/apple-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/apple-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/apple-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/apple-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/ms-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/ms-icon-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/ms-icon-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/ms-icon-70x70.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,16 +57,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
-              <caret line="564" column="60" selection-start-line="564" selection-start-column="60" selection-end-line="564" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="55" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -117,8 +132,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="735" />
-    <option name="y" value="396" />
+    <option name="x" value="614" />
+    <option name="y" value="420" />
     <option name="width" value="2151" />
     <option name="height" value="1442" />
   </component>
@@ -156,6 +171,13 @@
               <item name="impact_archery.site" type="b2602c69:ProjectViewProjectNode" />
               <item name="impact_archery.site" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="impact_archery.site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="impact_archery.site" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -173,11 +195,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/icon" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="C:\Users\ski\Documents\Projects\impact_archery.site\assets\css" />
       <recent name="C:\Users\ski\Documents\Projects\impact_archery.site\assets\img\man_logos" />
       <recent name="C:\Users\ski\Documents\Projects\impact_archery.site\assets\plugins\jquery" />
-      <recent name="C:\Users\ski\Documents\Projects\impact_archery.site\assets\img\icon" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -404,15 +426,15 @@
       <workItem from="1537234366977" duration="432000" />
       <workItem from="1543087651488" duration="226000" />
       <workItem from="1543089176150" duration="337000" />
-      <workItem from="1548217879129" duration="2860000" />
+      <workItem from="1548217879129" duration="3266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55240000" />
+    <option name="totallyTimeSpent" value="55646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="735" y="396" width="2151" height="1442" extended-state="0" />
+    <frame x="614" y="420" width="2151" height="1442" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18101442" />
@@ -746,7 +768,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="564" column="60" selection-start-line="564" selection-start-column="60" selection-end-line="564" selection-end-column="60" />
+          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="55" selection-end-column="47" />
         </state>
       </provider>
     </entry>

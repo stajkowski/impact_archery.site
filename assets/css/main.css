@@ -38,6 +38,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 100px;
 }
 
+.sm-logo-top {
+  margin-top: -7px;
+  width: 160px;
+  height:50px;
+}
+
 @media screen and (min-width: 992px) {
   header .container-fluid,
   section .container-fluid,
@@ -57,6 +63,10 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 7em;
     padding-right: 7em;
   }
+  .lg-logo {
+    width: 400px;
+    height: 150px;
+  }
 }
 @media screen and (min-width: 1440px) {
   header .container-fluid,
@@ -66,8 +76,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 15em;
   }
   .lg-logo {
-    width: 400px;
-    height: 150px;
+    width: 500px;
+    height: 200px;
   }
 }
 
@@ -78,8 +88,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 8px !important;
   }
   .lg-logo {
-    width: 300px;
-    height: 100px;
+    width: 400px;
+    height: 150px;
   }
 }
 

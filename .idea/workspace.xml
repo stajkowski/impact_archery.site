@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0e3e2e89-cbe5-4cce-9360-dfb81b4cf761" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/impact_archery.site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/impact_archery.site.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/rangepro.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/rangepro.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,9 +17,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="impact_archery.site" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -58,6 +61,7 @@
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.17.5" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -138,9 +142,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -372,7 +385,9 @@
       <workItem from="1548521695586" duration="166000" />
       <workItem from="1578456377709" duration="4185000" />
       <workItem from="1596254459282" duration="326000" />
-      <workItem from="1640145748704" duration="140000" />
+      <workItem from="1640145748704" duration="299000" />
+      <workItem from="1641607042998" duration="3000" />
+      <workItem from="1646441308540" duration="11000" />
     </task>
     <servers />
   </component>
